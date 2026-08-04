@@ -16,7 +16,7 @@ A personal-assistant agent built with LangChain's `create_agent`, running on Gro
 
 ## Requirements
 
-- Python 3.12
+- Python 3.13
 - [uv](https://docs.astral.sh/uv/) (there's a `uv.lock`) or pip
 - A [Groq API key](https://console.groq.com/keys)
 - A Notion integration token + database IDs (for the Notion tools)
