@@ -5,7 +5,7 @@ def main():
     load_dotenv()
     agent = create_react_agent_custom()
 
-    query = "Tell me the weather of delhi"
+    query = "What notes do I have pending?"
 
     res = agent.invoke({"messages":[("user",query)]})
 

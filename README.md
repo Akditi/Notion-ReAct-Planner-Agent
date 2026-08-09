@@ -25,7 +25,7 @@ A personal-assistant agent built with LangChain's `create_agent`, running on Gro
 
 ```bash
 git clone <this-repo>
-cd ReAct_agent-main
+cd Notion-ReAct-Planner-Agent
 uv sync
 # or: pip install -r requirements.txt
 ```
