@@ -3,7 +3,7 @@ from langchain_groq import ChatGroq
 from langchain.agents import create_agent
 
 from tools.notion_notes import get_notes, add_note
-from tools.notion_calender import get_calendar_events, add_calendar_event
+from tools.notion_calendar import get_calendar_events, add_calendar_event
 from utils.logger import get_logger
 from utils.groq_models import get_default_groq_model
 
